@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header{
+    padding: 30px 0;
+}
+.top-ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #BCAAAA;
+    padding-bottom: 20px;
+    
+}
+nav ul li a:hover{
+    text-decoration: none;
+    font-size: 20px;
+    color: #EF400F;
+    border-bottom: 5px solid #EF400F;
+}
+.h-orta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+.btn{
+    border: 3px solid#EF400F;
+    padding: 9px 15px;
+    border-radius: 10px;
+    background-color: white;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.s1ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.s1magaz{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.s1input{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.s1end{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.s1magaz h2{
+    font-family: Inter;
+font-size: 40px;
+font-weight: 600;
+line-height: 48.41px;
+color: #0D0C5C;
+
+}
+i{
+    font-size: 40px;
+}
+input{
+    width: 386px;
+height: 63px;
+border-radius: 20px;
+font-size: 20px;
+background-color: black;
+color: white;
+padding: 8px;
+}
+.btn2{
+    width: 116px;
+height: 63px;
+border-radius: 20px;
+padding: 8px;
+font-size: 17px;
+background-color: #0D0D5B;
+color: white;
+}
+.s1end i{
+    color: #EF400F;
+}
+.s1end h3{
+    color: #EF400F;
+    font-size: 30px;
+}
+main{
+    background-color: whitesmoke;
+    padding: 30px 0;
+}
+.card{
+    width: 290px;
+height: 290px;
+border-radius: 30px;
+box-shadow: 0px 4px 13.3px 0px #00000040;
+background-color: #FFFFFF;
+text-align: center;
+
+}
+.narx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.narx i{
+    font-size: 20px;
+    color: #EF400F;
+}
+.card h3{
+    margin-bottom: 20px;
+}
+.s2ota{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 20px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.end a{
+    font-size: 20px;
+    color: black;
+}
